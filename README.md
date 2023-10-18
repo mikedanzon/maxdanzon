@@ -1,2 +1,0 @@
-# maxdanzon
- personal website
