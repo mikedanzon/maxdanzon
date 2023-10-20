@@ -4,4 +4,20 @@
 
 * {
   scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --main-color: #0d2e8a;
+  --main-fade-color: #0d2e8a80;
+  --work-text-color: #5c5c5c;
+  --work-text-fade-color: #9e9e9e;
+  --main-text-color: black;
+  --white-text-color: white;
+  --black-text-color: black;
 }

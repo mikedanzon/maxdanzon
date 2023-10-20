@@ -34,8 +34,11 @@ const data = [
 
 const Work = () => {
   return (
-    <div id="work" className="max-w-[1040px] m-auto md:pl-20 p-4 py-16">
-      <h1 className="text-4xl font-bold text-center text-[#001b5e] mb-10">
+    <div
+      id="work"
+      className="max-w-[1040px] min-h-screen m-auto md:px-20 px-4 pt-16"
+    >
+      <h1 className="text-4xl font-bold text-center text-[--main-color] mb-10">
         Work Experience
       </h1>
       {data.map((item, idx) => (
