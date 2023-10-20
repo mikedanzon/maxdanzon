@@ -36,7 +36,7 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="max-w-[1040px] min-h-screen m-auto md:px-20 px-4 pt-16"
+      className="max-w-[1040px] min-h-screen m-auto md:px-20 px-4 pt-10"
     >
       <h1 className="text-4xl font-bold text-center text-[--main-color] mb-10">
         Work Experience
