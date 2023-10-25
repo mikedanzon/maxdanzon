@@ -1,13 +1,13 @@
-import React from "react";
-import { TypeAnimation } from "react-type-animation";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import React from 'react';
+import { TypeAnimation } from 'react-type-animation';
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 function Main() {
   return (
     <div id="main">
       <img
         className="w-full h-screen object-cover object-left"
-        src="https://images.unsplash.com/photo-1556075798-4825dfaaf498?auto=format&fit=crop&q=80&w=1176&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        src="https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
         alt="background"
       />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/30">
@@ -32,8 +32,8 @@ function Main() {
               repeat={Infinity}
               speed={50}
               style={{
-                fontSize: "1em",
-                display: "inline-block",
+                fontSize: '1em',
+                display: 'inline-block',
               }}
             />
           </h2>

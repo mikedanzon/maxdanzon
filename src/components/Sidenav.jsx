@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { AiOutlineMenu } from "react-icons/ai";
-import { MdWorkHistory } from "react-icons/md";
-import { HiDocumentReport, HiHome } from "react-icons/hi";
-import { IoIosMail } from "react-icons/io";
-import { BiArrowToTop } from "react-icons/bi";
+import React, { useState } from 'react';
+import { AiOutlineMenu } from 'react-icons/ai';
+import { MdWorkHistory } from 'react-icons/md';
+import { HiDocumentReport, HiHome } from 'react-icons/hi';
+import { IoIosMail } from 'react-icons/io';
+import { BiArrowToTop } from 'react-icons/bi';
 
 const Sidenav = () => {
   const [nav, setNav] = useState(false);
@@ -18,12 +18,12 @@ const Sidenav = () => {
     }
   };
 
-  window.addEventListener("scroll", toggleVisible);
+  window.addEventListener('scroll', toggleVisible);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
 
@@ -73,7 +73,7 @@ const Sidenav = () => {
           </a>
         </div>
       ) : (
-        ""
+        ''
       )}
       <div className="md:block hidden fixed top-[35%] z-10">
         <div className="flex flex-col">
@@ -115,12 +115,12 @@ const Sidenav = () => {
           </a>
         </div>
       </div>
-      <BiArrowToTop
-        size={25}
-        onClick={scrollToTop}
-        className="fixed bottom-4 right-4 z-[99] cursor-pointer"
-        style={{ display: visible ? "inline" : "none" }}
-      />
+      <div
+        className="fixed cursor-pointer bottom-4 right-4 z-[99] bg-[--main-color] p-3 rounded-3xl"
+        style={{ display: visible ? 'inline' : 'none' }}
+      >
+        <BiArrowToTop size={25} onClick={scrollToTop} color="white" />
+      </div>
     </div>
   );
 };
