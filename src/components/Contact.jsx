@@ -4,9 +4,9 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="max-w-[1040px] min-h-screen m-auto md:px-20 px-4 py-16"
+      className="snap-start shrink-0 w-screen h-screen m-auto flex flex-col justify-center items-center md:px-20 px-4"
     >
-      <h1 className="py-4 text-4xl font-bold text-center text-[--main-color]">
+      <h1 className="pb-2 text-4xl font-bold text-center text-[--main-color]">
         Send me a message!
       </h1>
       <h2 className="pb-4 font-bold text-center text-[--main-fade-color]">
@@ -16,6 +16,7 @@ const Contact = () => {
         action="https://getform.io/f/5943f4a2-e266-4281-ae59-1bda9adf926e"
         method="POST"
         encType="multipart/form-data"
+        className="w-full"
       >
         <div className="grid md:grid-cols-2 gap-4 w-full py-2">
           <div className="flex flex-col">
@@ -49,19 +50,24 @@ const Contact = () => {
           </label>
           <textarea
             className="border-2 rounded-lg p-3 border-gray-300"
-            rows={10}
+            rows={5}
             name="message"
             placeholder="You can say anything to me, feel free to leave your extra details here"
             required
           />
         </div>
         <button
-          className="bg-[--main-color] text-gray-100 mt-4 w-full p-4 rounded-lg"
+          className="bg-[--main-color] mt-4 w-full p-4 rounded-lg"
           type="submit"
         >
           Send Message
         </button>
       </form>
+      <div className="text-center pt-10 text-[--main-fade-color]">
+        © Copyright 2023 maxdanzon.com
+        <br />
+        All Rights Reserved.
+      </div>
     </div>
   );
 };

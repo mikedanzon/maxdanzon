@@ -3,9 +3,11 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="w-full h-[200px] m-auto bg-[--main-color] flex flex-col justify-center text-center">
+    <div className="snap-start shrink-0 w-screen h-screen m-auto bg-[--main-color] flex flex-col justify-center text-center">
       <p className="text-[--white-text-color]">
-        © Copyright 2023 maxdanzon.com All Rights Reserved.
+        © Copyright 2023 maxdanzon.com
+        <br />
+        All Rights Reserved.
       </p>
       <div className="flex justify-center gap-10 pt-5 text-[--white-text-color]">
         <a href="https://github.com/mikedanzon">

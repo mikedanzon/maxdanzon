@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const WorkItems = ({ yearStart, yearStop, title, duration, details, tech }) => {
   return (
     <ol className="flex flex-col md:flex-row relative border-l border-stone-200">
-      <li className="mb-10 ml-4">
+      <li className="mb-5 ml-4">
         <div className="absolute w-3 h-3 bg-stone-200 rounded-full mt-1.5 -left-1.5 border-white" />
         <p className="flex flex-wrap gap-4 flex-row items-center justify-start text-xs md:text-sm">
-          <span className="inline-block px-2 py-1 font-semibold text-[--white-text-color] bg-[--main-color] rounded-md">
+          <span className="inline-block px-2 py-1 font-semibold text-[--white-text-color] bg-[--main-fade-color] rounded-md">
             {yearStart} - {yearStop}
           </span>
           <span className="text-lg font-semibold text-[--main-color]">
@@ -16,11 +16,8 @@ const WorkItems = ({ yearStart, yearStop, title, duration, details, tech }) => {
             {duration}
           </span>
         </p>
-        <p className="my-2 text-base font-normal text-[--work-text-color]">
-          {details}
-        </p>
-        <p className="my-2 text-base font-formal text-[--work-text-color]">
-          Skills - {tech}
+        <p className="my-2 text-base font-formal text-[--main-fade-color]">
+          Skills: {tech}
         </p>
       </li>
     </ol>

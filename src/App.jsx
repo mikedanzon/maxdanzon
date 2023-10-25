@@ -1,20 +1,24 @@
-import Sidenav from "./components/Sidenav";
-import Main from "./components/Main";
-import Work from "./components/Work";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
+import Nav from "./components/Sidenav";
+import MainComponent from "./components/Main";
+import WorkComponent from "./components/Work";
+import ProjectsComponent from "./components/Projects";
+import ContactComponent from "./components/Contact";
 import Footer from "./components/Footer";
+import AboutComponent from "./components/About";
 
 function App() {
   return (
-    <div>
-      <Sidenav />
-      <Main />
-      <Work />
-      <Projects />
-      <Contact />
-      <Footer />
-    </div>
+    <>
+      {/* <Nav /> */}
+      <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
+        <MainComponent />
+        <AboutComponent />
+        <WorkComponent />
+        <ProjectsComponent />
+        <ContactComponent /> {/* Add footer here */}
+        {/* <Footer /> */}
+      </div>
+    </>
   );
 }
 

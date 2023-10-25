@@ -6,15 +6,18 @@
   scroll-behavior: smooth;
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
-body::-webkit-scrollbar {
+::-webkit-scrollbar {
   display: none;
 }
 
 :root {
-  --main-color: #0d2e8a;
-  --main-fade-color: #0d2e8a80;
+  --bg-dark: black;
+  --bg-light: white;
+  --main-color: #dbdbdb;
+  --main-fade-color: #6d6d6d80;
   --work-text-color: #5c5c5c;
   --work-text-fade-color: #9e9e9e;
   --main-text-color: black;
