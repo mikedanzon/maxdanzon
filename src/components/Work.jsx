@@ -28,7 +28,7 @@ const data = [
     yearStop: 2020,
     title: "Game Developer - Freelance",
     duration: "5 years",
-    tech: "HTML5 • CSS • C++ • MySQL • PHP",
+    tech: "HTML5 • CSS • PHP • C++ • MySQL",
   },
 ];
 
@@ -36,21 +36,23 @@ const Work = () => {
   return (
     <div
       id="work"
-      className="snap-start shrink-0 w-screen h-screen m-auto flex flex-col justify-center items-center md:px-20 px-4"
+      className="snap-normal snap-start shrink-0 w-screen h-[100svh] md:h-screen m-auto flex flex-col justify-center items-center md:px-20 px-4"
     >
-      <h1 className="text-4xl font-bold text-center text-[--main-color] mb-10">
+      <h1 className="text-4xl font-bold text-center text-[--main-color] mb-5 lg:mb-10">
         Work Experience
       </h1>
-      {data.map((item, idx) => (
-        <WorkItems
-          key={idx}
-          yearStart={item.yearStart}
-          yearStop={item.yearStop}
-          title={item.title}
-          duration={item.duration}
-          tech={item.tech}
-        />
-      ))}
+      <div className="pt-3 pl-5 md:pl-0">
+        {data.map((item, idx) => (
+          <WorkItems
+            key={idx}
+            yearStart={item.yearStart}
+            yearStop={item.yearStop}
+            title={item.title}
+            duration={item.duration}
+            tech={item.tech}
+          />
+        ))}
+      </div>
     </div>
   );
 };

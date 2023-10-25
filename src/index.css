@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
   background-color: black;
+  font-family: "Roboto", sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -17,7 +18,7 @@
   --bg-dark: black;
   --bg-light: white;
   --main-color: #dbdbdb;
-  --main-fade-color: #6d6d6d80;
+  --main-fade-color: #c7c7c780;
   --work-text-color: #5c5c5c;
   --work-text-fade-color: #9e9e9e;
   --main-text-color: black;

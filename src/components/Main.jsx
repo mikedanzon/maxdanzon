@@ -5,7 +5,10 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 function Main() {
   return (
-    <div id="main" className="snap-start shrink-0 w-screen h-screen relative">
+    <div
+      id="main"
+      className="snap-normal snap-start shrink-0 w-screen h-[100svh] md:h-screen relative"
+    >
       <div className="m-auto h-full w-full flex flex-col justify-center items-center bg-main-background bg-cover">
         <h1 className="sm:text-5xl text-4xl font-bold text-[--main-color] cursor-default bg-transparent">
           I'm Michael Max
@@ -54,7 +57,7 @@ function Main() {
           </a>
         </div>
         <a
-          className="bg-white p-2 rounded-3xl cursor-pointer absolute bottom-0 mb-10 opacity-[0.3] hover:opacity-[1] hover:scale-125 ease-in duration-300"
+          className="mb-16 bg-white p-2 rounded-3xl cursor-pointer absolute bottom-0 opacity-[0.3] hover:opacity-[1] hover:scale-125 ease-in duration-300"
           href="#about"
         >
           <AiOutlineArrowDown

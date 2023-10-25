@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <div
       id="contact"
-      className="snap-start shrink-0 w-screen h-screen m-auto flex flex-col justify-center items-center md:px-20 px-4"
+      className="snap-normal snap-start shrink-0 w-screen h-[100svh] md:h-screen m-auto flex flex-col justify-center items-center md:px-20 px-4"
     >
       <h1 className="pb-2 text-4xl font-bold text-center text-[--main-color]">
         Send me a message!
