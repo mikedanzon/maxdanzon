@@ -40,18 +40,21 @@ function Main() {
           <a
             href="https://github.com/mikedanzon"
             className="hover:scale-150 ease-in duration-300 bg-transparent"
+            target="_blank"
           >
             <FaGithub size={30} className="bg-transparent" />
           </a>
           <a
             href="https://www.linkedin.com/in/mikedanzon/"
             className="hover:scale-150 ease-in duration-300 bg-transparent"
+            target="_blank"
           >
             <FaLinkedin size={30} className="bg-transparent" />
           </a>
           <a
             href="https://instagram.com/mikedanzon"
             className="hover:scale-150 ease-in duration-300 bg-transparent"
+            target="_blank"
           >
             <FaInstagram size={30} className="bg-transparent" />
           </a>
