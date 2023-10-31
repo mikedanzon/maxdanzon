@@ -7,7 +7,7 @@ import AboutComponent from "./components/About";
 function App() {
   return (
     <>
-      <div className="snap-y snap-proximity h-screen w-screen overflow-y-scroll">
+      <div className="snap-y snap-mandatory h-screen w-screen overflow-y-scroll">
         <MainComponent />
         <AboutComponent />
         <WorkComponent />
