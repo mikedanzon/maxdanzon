@@ -7,7 +7,7 @@ function Main() {
   return (
     <div
       id="main"
-      className="snap-normal snap-start shrink-0 w-screen h-[100svh] md:h-screen relative"
+      className="snap-normal snap-start shrink-0 w-screen h-[100svh] md:h-screen m-auto flex flex-col justify-center items-center relative"
     >
       <div className="m-auto h-full w-full flex flex-col justify-center items-center bg-main-background bg-cover">
         <h1 className="sm:text-5xl text-4xl font-bold text-[--main-color] cursor-default bg-transparent">

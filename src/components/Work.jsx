@@ -38,7 +38,7 @@ const Work = () => {
       id="work"
       className="snap-normal snap-start shrink-0 w-screen h-[100svh] md:h-screen m-auto flex flex-col justify-center items-center md:px-20 px-4"
     >
-      <h1 className="text-4xl font-bold text-center text-[--main-color] mb-5 lg:mb-10">
+      <h1 className="md:text-4xl text-2xl font-bold text-center text-[--main-color] mb-5 lg:mb-10">
         Work Experience
       </h1>
       <div className="pt-3 pl-5 md:pl-0">
