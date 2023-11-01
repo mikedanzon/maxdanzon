@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div
       id="projects"
-      className="snap-normal snap-start shrink-0 w-screen h-[100svh] md:h-screen m-auto flex flex-col justify-center items-center md:px-20 px-4"
+      className="snap-normal snap-start shrink-0 w-screen h-[100svh] md:h-screen m-auto flex flex-col justify-center items-center md:px-20 px-4 max-w-7xl"
     >
       <div>
         <div className="md:text-4xl text-2xl font-bold text-center text-[--main-color]">
