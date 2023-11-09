@@ -1,23 +1,24 @@
 import React, { useState } from "react";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { Tooltip } from "@material-tailwind/react";
+import PortraitureImage from "../assets/portraiture.png";
+import CanlahImage from "../assets/canlah.jpeg";
+import ThiscoImage from "../assets/thisco.jpeg";
 
 const slides = [
   {
     tooltip: "Portraiture",
-    imageUrl: "https://maxdanzon.com/images/portraiture.png",
+    imageUrl: PortraitureImage,
     link: "https://github.com/mikedanzon/portraiture-project",
   },
   {
     tooltip: "Canlah *screenshot not available",
-    imageUrl:
-      "https://media.licdn.com/dms/image/C560BAQGdwGmFTn6z2w/company-logo_200_200/0/1677230501445?e=2147483647&v=beta&t=WIyGNdGqpKpz4i1iOAd4gKf0MWTugbMZKZQ46Nzjg8Q",
-    link: "https://www.canlah.com/",
+    imageUrl: CanlahImage,
+    link: "https://canlah.com/",
   },
   {
     tooltip: "THISCo *screenshot not available",
-    imageUrl:
-      "https://media.licdn.com/dms/image/C560BAQFY3sRSe-P54Q/company-logo_200_200/0/1627965628778?e=2147483647&v=beta&t=fk1HhQli6xCUz1Rgr9_opiE6gEGfTTg6JTp-QvSyvks",
+    imageUrl: ThiscoImage,
     link: "https://thiscotime.com",
   },
 ];
@@ -54,7 +55,7 @@ const Projects = () => {
         <br />
         More projects coming soon!
       </div>
-      <div className="lg:h-[500px] h-[400px] w-full relative group">
+      <div className="lg:h-[500px] h-[400px] lg:w-[850px] w-[90%] relative group">
         <Tooltip
           content={slides[currentIndex].tooltip}
           animate={{
