@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Contact = () => {
   return (
@@ -26,7 +26,7 @@ const Contact = () => {
               Your Name*
             </label>
             <input
-              className="border-2 rounded-lg p-3 flex border-gray-300"
+              className="border-2 rounded-lg p-3 flex border-gray-300 text-white"
               type="text"
               name="name"
               placeholder="Enter your name"
@@ -38,7 +38,7 @@ const Contact = () => {
               Your Email Address*
             </label>
             <input
-              className="border-2 rounded-lg p-3 flex border-gray-300"
+              className="border-2 rounded-lg p-3 flex border-gray-300 text-white"
               type="text"
               name="phone"
               placeholder="Enter your email address"
@@ -51,7 +51,7 @@ const Contact = () => {
             Your Message*
           </label>
           <textarea
-            className="border-2 rounded-lg p-3 border-gray-300"
+            className="border-2 rounded-lg p-3 border-gray-300 text-white"
             rows={5}
             name="message"
             placeholder="You can say anything to me, feel free to leave your extra details here"
